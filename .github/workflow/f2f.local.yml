@@ -5,7 +5,7 @@ on:
 
 jobs:
   eslint:
-    runs-on: macOS-latest
+    runs-on: self-hosted
     steps:
       name: running eslint
       run: npm run lint
