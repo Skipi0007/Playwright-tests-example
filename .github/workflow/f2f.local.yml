@@ -4,17 +4,21 @@ on:
   pull_request:
 
 jobs:
-  eslint:
+  build:
     runs-on: self-hosted
     steps:
-      name: running eslint
+
+    - name: Set Node version
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.14.2
+
+     - name: running eslint
       run: npm run lint
 
-  f2f:
-    runs-on: ubuntu-latest
-    steps:
-      name: build
+ 
+    -  name: build
       run: npm run dev
-    steps:
+
       name: f2f chromium
       run: npm run tests
