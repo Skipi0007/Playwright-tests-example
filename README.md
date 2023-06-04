@@ -3,7 +3,7 @@
 ![ZiShop](public/images/logo.png)
 
 This is my Playwright tests examples, witch was wrote
-for An E-commerce site template, implemented with [Next.js](https://nextjs.org/) and [TypeScript](https://www.typescriptlang.org/). Styled with [TailwindCSS](https://tailwindcss.com/). This is one of my portfolios, where i'm showing my code practices and project environment examles
+for <a href="https://github.com/ZahraMirzaei/online-shop">forked An E-commerce site</a> template, implemented with [Next.js](https://nextjs.org/) and [TypeScript](https://www.typescriptlang.org/). Styled with [TailwindCSS](https://tailwindcss.com/). This is one of my portfolios, where i'm showing my code practices and project environment examles
 
 ![GitHub top language](https://img.shields.io/github/languages/top/Skipi0007/Playwright-tests-example)&nbsp;
 ![GitHub last commit](https://img.shields.io/github/last-commit/Skipi0007/Playwright-tests-example)&nbsp;
