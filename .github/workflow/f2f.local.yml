@@ -1,0 +1,24 @@
+name: Run F2F Tests
+
+on:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: self-hosted
+    steps:
+
+    - name: Set Node version
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.14.2
+
+     - name: running eslint
+      run: npm run lint
+
+ 
+    -  name: build
+      run: npm run dev
+
+      name: f2f chromium
+      run: npm run tests
